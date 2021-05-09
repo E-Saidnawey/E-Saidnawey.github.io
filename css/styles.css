@@ -1,0 +1,322 @@
+
+/* For 1024 Resolution */  
+
+body {
+    width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* navigation */
+.NavigationBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 30px;
+}
+
+.Name a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.rightside {
+    display: flex;
+}
+
+.NavigationBar > .leftside > div {
+    margin: 20px;
+    font-size: .9em;
+}
+
+.NavigationBar > .rightside > div {
+    display: flex;
+    margin: 20px;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 2px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+/*Home Page*/
+.Welcome > * {
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.Welcome h1 {
+    font-weight: 600;
+    font-size: 5em;
+    text-decoration: wavy;
+    color: grey;
+    text-align: center;
+    padding-top: 0.5em;
+    margin-bottom: .6em;
+    margin-top: .25em;
+}
+
+.Welcome p1 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.25em;
+    color: rgb(85, 80, 80);
+}
+
+.Welcome p {
+    font-weight: 300;
+    font-size: 1em;
+    color: rgb(85 , 80 , 80);
+    text-align: center;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+/*Photo Journal*/
+.portfolio-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+
+.img-darken {
+    transition: .75s;
+    filter: brightness(15%);
+}
+
+.bg-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.bg-image img {
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.image-overlay > * {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imgwords {
+    font-weight: 800;
+    font-size: 1.25em;
+}
+
+
+.image-overlay:hover > .imgwords {
+    color: white;
+    font-weight: bold;
+}
+
+.image-overlay:hover > p {
+    color: white;
+    font-weight: 400;
+
+}
+
+/*Overview page */
+
+.two-col-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profile-img-wrapper {
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-img-wrapper img {
+    height: 400px;
+}
+
+.profile-img-wrapper p {
+    color: rgb(75, 75, 75);
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-content-wrapper h1 {
+    color: rgb(100, 100, 100);
+    font-size: 2em;
+}
+
+.profile-content-wrapper > p2 {
+    font-weight: 300;
+    font-style: none;
+    font-size: 1em;
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+.profile-content-wrapper > .Credits >li {
+    padding: 10px;
+}
+
+.profile-content-wrapper > .Credits > li > p2 > a {
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 1em;
+    color: rgb(100, 100, 100);
+}
+
+.profile-content-wrapper > .Credits > li > p2 {
+    font-weight: 300;
+    font-style: none;
+    font-size: 1em;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    
+}
+h3 {
+    color: rgb(100, 100, 100);
+}
+
+h3 span { 
+    font-size:16px; 
+    font-weight: 300;
+    color:rgb(75, 75, 75);
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+
+/* Add Mobile Layout */
+
+  /* if desktop */
+.mobile_device_380px {
+    display: none;
+}
+.mobile_device_480px {
+    display: none;
+}
+
+.WelcomePhone{
+    display: none;
+}
+/* if mobile device max width 380px */
+
+@media only screen and (max-device-width: 400px) {
+    .mobile_device_380px{display: block;}       
+    .desktop {display: none;}
+    /*about page */
+    .container{width: 100%;}
+    .image-blog{display: flex;}
+    .image-blog img {height: 283px;}
+    .writing-blog h1{text-align: center; color: rgb(100, 100, 100); font-size: 2em;}
+    .writing-blog h3 {text-align: left; padding-left: 10px;}
+    /*Make the picture centered*/
+
+    /*Photo Journal*/
+    .portfolio-wrapper {display: grid; grid-template-columns: 1fr;}
+
+    /*Home Page*/
+    .WelcomePhone{
+        display: block; 
+        margin: 0px;
+    }
+    .WelcomePhone p {
+        margin-left: 50px; 
+        margin-right: 50px;
+    }
+
+    .WelcomePhone {
+        background-position: center; 
+        text-align: center; 
+        width: 100%;
+    }
+
+    /* Overview Page */
+
+    .two-col-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .image-blog {
+        padding: none;
+        justify-content: center;
+    }
+
+    .writing-blog > h3{
+        text-align: center;
+    }
+
+    .writing-blog > p {
+        text-align: center;
+    }
+
+} 
+
+/* if mobile device max width 480px */
+@media only screen and (max-device-width: 480px) {
+   .mobile_device_480px{display: block;}
+   .desktop {display: none;}
+}
