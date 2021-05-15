@@ -4,16 +4,8 @@
 * {
     max-width: 100%;
 }
-html {
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-}
 
 body {
-    position: fixed;
     width: 100%;
 	padding: 0px;
 	margin: 0px;
@@ -272,56 +264,10 @@ h3 span {
 }
 /* if mobile device max width 380px */
 
-@media only screen and (max-device-width: 400px) {
-    * {max-width: 100%;}
-    .mobile_device_380px{display: block;}       
-    .desktop {display: none;}
-    /*about page */
-    .image-blog{display: flex;}
-    .image-blog img {height: 283px;}
-    .writing-blog h1{text-align: center; color: rgb(100, 100, 100); font-size: 2em;}
-    .writing-blog h3 {text-align: left; padding-left: 0; padding-right: 0;}
-    /*Make the picture centered*/
-
-    /*Photo Journal*/
-    .portfolio-wrapper {display: grid; grid-template-columns: 1fr;}
-
-    /*Home Page*/
-
-    .WelcomePhone{
-        display: block; 
-        margin: 0px;
-    }
-
-    .WelcomePhone {
-        background-position: center; 
-        text-align: center; 
-    }
-
-    /* Overview Page */
-
-    .two-col-wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .image-blog {
-        padding: none;
-        justify-content: center;
-    }
-
-    .writing-blog > h3{
-        text-align: center;
-    }
-
-    .writing-blog > p {
-        text-align: center;
-    }
-
-} 
 
 /* if mobile device max width 480px */
 @media only screen and (max-device-width: 480px) {
-    * {max-width: 100%;}
+    
     .mobile_device_480px{display: block;}
     .desktop {display: none;}
     .mobile_device_380px{display: block;}    
