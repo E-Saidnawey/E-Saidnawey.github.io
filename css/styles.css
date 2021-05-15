@@ -264,8 +264,8 @@ h3 span {
 @media only screen and (max-device-width: 400px) {
     .mobile_device_380px{display: block;}       
     .desktop {display: none;}
-    /*about page */
     .container{width: 100%;}
+    /*about page */
     .image-blog{display: flex;}
     .image-blog img {height: 283px;}
     .writing-blog h1{text-align: center; color: rgb(100, 100, 100); font-size: 2em;}
@@ -279,7 +279,6 @@ h3 span {
     .WelcomePhone{
         display: block; 
         margin: 0px;
-        width: 100%;
     }
     .WelcomePhone p {
         margin-left: 5%; 
@@ -289,7 +288,6 @@ h3 span {
     .WelcomePhone {
         background-position: center; 
         text-align: center; 
-        width: 100%;
     }
 
     /* Overview Page */
@@ -315,12 +313,12 @@ h3 span {
 
 /* if mobile device max width 480px */
 @media only screen and (max-device-width: 480px) {
-   .mobile_device_480px{display: block;}
-   .desktop {display: none;}
-   .mobile_device_380px{display: block;}       
+    .mobile_device_480px{display: block;}
+    .desktop {display: none;}
+    .mobile_device_380px{display: block;}    
+    .container{width: 100%;}
     .desktop {display: none;}
     /*about page */
-    .container{width: 100%;}
     .image-blog{display: flex;}
     .image-blog img {height: 283px;}
     .writing-blog h1{text-align: center; color: rgb(100, 100, 100); font-size: 2em;}
@@ -334,7 +332,6 @@ h3 span {
     .WelcomePhone{
         display: block; 
         margin: 0px;
-        width: 100%;
     }
     .WelcomePhone p {
         margin-left: 5%; 
@@ -344,7 +341,6 @@ h3 span {
     .WelcomePhone {
         background-position: center; 
         text-align: center; 
-        width: 100%;
     }
 
     /* Overview Page */
