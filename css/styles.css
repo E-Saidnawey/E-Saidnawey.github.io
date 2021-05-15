@@ -266,6 +266,7 @@ h3 span {
 /* if mobile device max width 380px */
 
 @media only screen and (max-device-width: 400px) {
+    * {max-width: 100%;}
     .mobile_device_380px{display: block;}       
     .desktop {display: none;}
     /*about page */
@@ -325,6 +326,7 @@ h3 span {
 
 /* if mobile device max width 480px */
 @media only screen and (max-device-width: 480px) {
+    * {max-width: 100%;}
     .mobile_device_480px{display: block;}
     .desktop {display: none;}
     .mobile_device_380px{display: block;}    
