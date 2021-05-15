@@ -264,7 +264,6 @@ h3 span {
 @media only screen and (max-device-width: 400px) {
     .mobile_device_380px{display: block;}       
     .desktop {display: none;}
-    .container{width: 100%;}
     /*about page */
     .image-blog{display: flex;}
     .image-blog img {height: 283px;}
@@ -276,6 +275,15 @@ h3 span {
     .portfolio-wrapper {display: grid; grid-template-columns: 1fr;}
 
     /*Home Page*/
+
+    .NavigationBar{
+        width: 100%;
+    }
+
+    .HomePage{
+        width: 100%;
+    }
+
     .WelcomePhone{
         display: block; 
         margin: 0px;
@@ -316,7 +324,6 @@ h3 span {
     .mobile_device_480px{display: block;}
     .desktop {display: none;}
     .mobile_device_380px{display: block;}    
-    .container{width: 100%;}
     .desktop {display: none;}
     /*about page */
     .image-blog{display: flex;}
@@ -332,6 +339,14 @@ h3 span {
     .WelcomePhone{
         display: block; 
         margin: 0px;
+    }
+
+    .NavigationBar{
+        width: 100%;
+    }
+
+    .HomePage{
+        width: 100%;
     }
     .WelcomePhone p {
         margin-left: 5%; 
@@ -361,5 +376,4 @@ h3 span {
     .writing-blog > p {
         text-align: center;
     }
-
 }
