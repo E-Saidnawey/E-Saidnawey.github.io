@@ -22,8 +22,8 @@ body {
 .NavigationBar {
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    padding: 30px;
+    width: 75%;
+    margin: auto;
 }
 
 .Name a {
@@ -36,15 +36,17 @@ body {
 }
 
 .NavigationBar > .leftside > div {
-    margin: 20px;
+    margin: 5%;
     font-size: .9em;
+    text-align: center;
 }
 
 .NavigationBar > .rightside > div {
     display: flex;
-    margin: 20px;
+    margin: 5%;
     font-size: .9em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .nav-link-wrapper {
