@@ -1,10 +1,6 @@
 
 /* For 1024 Resolution */  
 
-* {
-    max-width: 100%;
-}
-
 body {
     width: 100%;
     height: 100%;
@@ -23,7 +19,9 @@ body {
     display: flex;
     justify-content: space-between;
     width: 75%;
-    margin: 5%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Name a {
@@ -38,7 +36,6 @@ body {
 .NavigationBar > .leftside > div {
     margin-top: 10%;
     font-size: .9em;
-    align-items: center;
 }
 
 .NavigationBar > .rightside > div {
@@ -46,13 +43,11 @@ body {
     margin-top: 10%;
     font-size: .9em;
     text-transform: uppercase;
-    align-items: center;
     margin-left: 4%;
     margin-right: 4%;
 }
 
 .nav-link-wrapper {
-    height: 22px;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -205,19 +200,24 @@ body {
 
 .profile-content-wrapper {
     padding: 30px;
-    text-align: center;
+    margin-left: 5%;
 }
 
 .profile-content-wrapper h1 {
     color: rgb(100, 100, 100);
     font-size: 2em;
+    margin-top: 0%;
+}
+
+.profile-content-wrapper p {
+    color: rgb(75, 75, 75);
 }
 
 .profile-content-wrapper > p2 {
     font-weight: 300;
     font-style: none;
     font-size: 1em;
-    color: rgb(100, 100, 100);
+    color: rgb(75, 75, 75);
     text-align: center;
 }
 
@@ -229,14 +229,14 @@ body {
     font-weight: 400;
     text-decoration: underline;
     font-size: 1em;
-    color: rgb(100, 100, 100);
+    color: rgb(75, 75, 75);
 }
 
 .profile-content-wrapper > .Credits > li > p2 {
     font-weight: 300;
     font-style: none;
     font-size: 1em;
-    color: rgb(100, 100, 100);
+    color: rgb(75, 75, 75);
     text-align: center;
     
 }
@@ -248,8 +248,8 @@ h3 span {
     font-size:16px; 
     font-weight: 300;
     color:rgb(75, 75, 75);
-    border-bottom: solid;
-    border-width: 1px;
+    border-bottom: 1px solid;
+    padding: 0 20px;
 }
 
 
@@ -308,10 +308,24 @@ h3 span {
     .image-blog {
         padding: none;
         justify-content: center;
+        margin-top: 5%;
     }
 
     .writing-blog > h3{
-        text-align: center;
+        margin-left: 10%;
+    }
+
+    .writing-blog > li {
+        margin-left: 10%;
+    }
+
+    .writing-blog > li > p2 {
+        color:rgb(75, 75, 75);
+    }
+
+    .writing-blog > li > p2 > a {
+        text-decoration: underline;
+        color: rgb(75, 75, 75);
     }
 
     .writing-blog > p {
