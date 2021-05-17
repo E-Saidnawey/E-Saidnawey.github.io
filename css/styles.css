@@ -36,17 +36,19 @@ body {
 }
 
 .NavigationBar > .leftside > div {
-    margin: 5%;
+    margin-top: 10%;
     font-size: .9em;
-    text-align: center;
+    align-items: center;
 }
 
 .NavigationBar > .rightside > div {
     display: flex;
-    margin: 5%;
+    margin-top: 10%;
     font-size: .9em;
     text-transform: uppercase;
-    text-align: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .nav-link-wrapper {
@@ -81,7 +83,7 @@ body {
 }
 .Welcome h1 {
     font-weight: 600;
-    font-size: 5em;
+    font-size: 4em;
     text-decoration: wavy;
     color: grey;
     text-align: center;
