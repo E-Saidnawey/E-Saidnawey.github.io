@@ -14,11 +14,13 @@ body {
     grid-template-columns: 1fr;
 }
 
+/* navigation Computer */
+
 /* navigation */
 .NavigationBar {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 80%;
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +38,7 @@ body {
 .NavigationBar > .leftside > div {
     margin-top: 10%;
     font-size: .9em;
+    text-transform: uppercase;
 }
 
 .NavigationBar > .rightside > div {
@@ -50,6 +53,7 @@ body {
 .nav-link-wrapper {
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
+    float: left;
 }
 
 .nav-link-wrapper a {
@@ -280,12 +284,37 @@ h3 span {
 
     /* Navigation */
     
-    .NavigationBar > .leftside > div {
-        align-items: center;
+    .NavigationBar {
+        width: 100%;
+        margin-top: 5%;
     }
     
+    .leftside {
+        width: 20%;
+    }
+    .Name {
+        float: right;
+    }
+    .rightside {
+        display: flex;
+        width: 60%;
+    }
+    
+    .NavigationBar > .leftside > div {
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
     .NavigationBar > .rightside > div {
-        align-items: center;
+        margin-top: 0%;
+        padding-left: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    }
+    .nav-link-wrapper {
+        float: left;
     }
 
 
