@@ -358,7 +358,7 @@ h3 span {
     /*Make the picture centered*/
 
     /*Photo Journal*/
-    .portfolio-wrapper {display: grid; grid-template-columns: 1fr;}
+    .portfolio-wrapper {display: grid; grid-template-columns: 1fr; margin-top: 2%;}
 
     /*Home Page*/
     .WelcomePhone{
