@@ -306,7 +306,7 @@ h3 span {
         margin-right: 0%;
     }
 
-    .NavigationBar > .rightside > div {
+    .NavigationBar > .rightside > .nav-link-wrapper {
         margin-top: 0%;
         padding-left: 5%;
         margin-left: 0%;
