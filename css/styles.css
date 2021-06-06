@@ -106,6 +106,36 @@ body {
     text-align: center;
 }
 
+.Welcome > .desktop > ol {
+    width: 50%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Welcome > .desktop > ol > li {
+    font-weight: 300;
+    font-style: none;
+    font-size: 1em;
+    color: rgb(75, 75, 75);
+}
+
+.Welcome > .WelcomePhone > ol {
+    width: 50%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Welcome > .WelcomePhone > ol > li {
+    font-weight: 300;
+    font-style: none;
+    font-size: 1em;
+    color: rgb(75, 75, 75);
+}
+
 /*Photo Journal*/
 .portfolio-wrapper {
     display: grid;
@@ -204,7 +234,7 @@ body {
 
 .profile-content-wrapper {
     padding: 30px;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 
 .profile-content-wrapper h1 {
@@ -316,7 +346,6 @@ h3 span {
         margin-top: 0%;
         margin-left: 5%;
         margin-right: 0%;
-        
     }
 
 
