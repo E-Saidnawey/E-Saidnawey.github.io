@@ -295,6 +295,11 @@ h3 span {
     .Name {
         float: right;
     }
+
+    .nav-link-wrapper {
+        float: left;
+    }
+
     .rightside {
         display: flex;
         width: 60%;
@@ -306,15 +311,13 @@ h3 span {
         margin-right: 0%;
     }
 
-    .NavigationBar > .rightside > .nav-link-wrapper {
+
+    .NavigationBar > .rightside > div {
         margin-top: 0%;
         padding-left: 5%;
         margin-left: 0%;
         margin-right: 0%;
         
-    }
-    .nav-link-wrapper {
-        float: left;
     }
 
 
