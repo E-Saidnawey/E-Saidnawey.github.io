@@ -255,6 +255,10 @@ body {
     text-align: center;
 }
 
+.profile-content-wrapper > li {
+    color: rgb(75, 75, 75);
+}
+
 .profile-content-wrapper > .Credits >li {
     padding: 10px;
 }
@@ -367,7 +371,7 @@ h3 span {
         margin-left: 5%;
         margin-right: 5%;
         background-position: center;
-        text-align: center;
+        /*text-align: center;*/
     }
 
     /* Overview Page */
