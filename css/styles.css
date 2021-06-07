@@ -363,9 +363,9 @@ h3 span {
     /*Home Page*/
     .WelcomePhone{
         display: block; 
-        width: 96%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
         background-position: center;
         text-align: center;
     }
@@ -383,9 +383,9 @@ h3 span {
     }
 
     .writing-blog {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .writing-blog > h3{
