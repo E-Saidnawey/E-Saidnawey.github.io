@@ -363,12 +363,11 @@ h3 span {
     /*Home Page*/
     .WelcomePhone{
         display: block; 
-        margin: 0px;
-    }
-
-    .WelcomePhone {
-        background-position: center; 
-        text-align: center; 
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-position: center;
+        text-align: center;
     }
 
     /* Overview Page */
@@ -381,6 +380,12 @@ h3 span {
         padding: none;
         justify-content: center;
         margin-top: 5%;
+    }
+
+    .writing-blog {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .writing-blog > h3{
