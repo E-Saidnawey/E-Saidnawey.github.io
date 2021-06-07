@@ -358,6 +358,7 @@ h3 span {
     .image-blog img {height: 283px;}
     .writing-blog h1{text-align: center; color: rgb(100, 100, 100); font-size: 2em;}
     .writing-blog h3 {text-align: left; padding-left: 0; padding-right: 0;}
+    .writing-blog li {color: rgb(75, 75, 75);}
 
     /*Make the picture centered*/
 
@@ -373,6 +374,7 @@ h3 span {
         background-position: center;
         /*text-align: center;*/
     }
+
 
     /* Overview Page */
 
